@@ -1,3 +1,3 @@
 # Blog
 
-. [Augular Issue](./post/angularIssue.md)
+. [Augular Issue](https://github.com/haoliqiang/blog/issues/2)
