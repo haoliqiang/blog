@@ -1,7 +1,8 @@
+import { getLength } from '../../../utils'
 export function filter(array: any[], predicate: Function) {
   let index = -1
   let resIndex = 0
-  const length = array === null || array === undefined ? 0 : array.length
+  const length = getLength(array)
   const result = []
   while (++index < length) {
     const value = array[index]
