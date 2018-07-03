@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "sourceMap": false,
+    "module": "commonjs",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "noUnusedParameters": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "strictNullChecks": true,
+    "baseUrl": "./",
+    "lib": ["es7", "es6", "es5", "dom"],
+    "typeRoots": ["node_modules/@types"],
+    "types": []
+  },
+  "exclude": ["node_modules", "test", "dll", "dest"],
+  "compileOnSave": true,
+  "awesomeTypescriptLoaderOptions": {
+    "useCache": true
+  }
+}

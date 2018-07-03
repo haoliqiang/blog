@@ -1,0 +1,56 @@
+{
+  "rulesDirectory": [""],
+  "rules": {
+    "member-ordering": [true, {
+      "order": ["public-before-private", "static-before-instance", "variables-before-functions"]
+    }],
+    "no-internal-module": true,
+    "prefer-for-of": true,
+    "typedef-whitespace": [
+      true,
+      {
+        "call-signature": "nospace",
+        "index-signature": "nospace",
+        "parameter": "nospace",
+        "property-declaration": "nospace",
+        "variable-declaration": "nospace"
+      },
+      {
+        "call-signature": "space",
+        "index-signature": "space",
+        "parameter": "space",
+        "property-declaration": "space",
+        "variable-declaration": "space"
+      }
+    ],
+    "forin": true,
+    "no-arg": true,
+    "no-bitwise": true,
+    "no-conditional-assignment": true,
+    "no-console": [true, "debug", "info", "time", "timeEnd", "trace"],
+    "no-construct": true,
+    "no-debugger": true,
+    "no-duplicate-variable": true,
+    "no-eval": true,
+    "no-shadowed-variable": true,
+    "no-switch-case-fall-through": true,
+    "no-unused-expression": true,
+    "no-use-before-declare": true,
+    "no-var-keyword": true,
+    "radix": true,
+    "switch-default": true,
+    "triple-equals": [true, "allow-null-check"],
+    "eofline": true,
+    "indent": [true, "spaces"],
+    "max-line-length": [true, 200],
+    "no-trailing-whitespace": true,
+    "class-name": true,
+    "comment-format": [true, "check-space"],
+    "jsdoc-format": true,
+    "new-parens": true,
+    "one-line": [true, "check-open-brace", "check-catch", "check-else", "check-finally", "check-whitespace"],
+    "quotemark": [true, "single", "avoid-escape"],
+    "variable-name": [true, "check-format", "allow-leading-underscore", "ban-keywords"],
+    "whitespace": [true, "check-branch", "check-decl", "check-operator", "check-separator", "check-type"]
+  }
+}
