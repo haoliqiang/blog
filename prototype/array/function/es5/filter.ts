@@ -1,8 +1,7 @@
-import { getLength } from '../../../utils'
 export function filter(array: any[], predicate: Function) {
   let index = -1
   let resIndex = 0
-  const length = getLength(array)
+  const length = array === null || array === undefined ? 0 : array.length
   const result = []
   while (++index < length) {
     const value = array[index]
@@ -25,4 +24,4 @@ const person = [
     age: 12
   }
 ]
-console.log(filter(person, (v: { name: string; age: number }) => v.age > 12))
+// console.log(filter(person, (v: { name: string; age: number }) => v.age > 12))
