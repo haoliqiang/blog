@@ -11,6 +11,7 @@ export function slice(array: any[], begin?: number, end?: number) {
     end += length
   }
   length = begin > end ? 0 : end - begin
+  // todo length  begin 有可能为string
   const result = new Array(length)
   while (++index < end - begin) {
     result[index] = array[begin + index]
