@@ -1,0 +1,49 @@
+{
+  "types": {
+    "feat": {
+      "description": "一个新功能"
+    },
+    "fix": {
+      "description": "一个bug被修复"
+    },
+    "docs": {
+      "description": "只是文档有些改动"
+    },
+    "style": {
+      "description": "变化不影响代码的含义(空白、格式化、缺少分号等)"
+    },
+    "refactor": {
+      "description": "代码更改,修复一个缺陷和添加一个特性"
+    },
+    "perf": {
+      "description": "代码更改,提高了性能"
+    },
+    "test": {
+      "description": "添加缺失的测试或修正现有的测试"
+    },
+    "build": {
+      "description": "变化影响构建系统或外部依赖(实例 包括: gulp, webpack, npm)"
+    },
+    "ci": {
+      "description": "改变我们的CI配置文件和脚本 (实例 包括: Travis, Circle, BrowserStack, SauceLabs)"
+    },
+    "chore": {
+      "description": "其他的变化,不要修改src或测试文件"
+    },
+    "revert": {
+      "description": "恢复之前的提交"
+    }
+  }, // default
+  "scope": {
+    required: false, // default,
+    allowed: [], // default is '*' for anything,
+    validate: false, // default,
+    multiple: false // default
+  },
+  "warnOnFail": false, // default
+  "maxSubjectLength": 100, // default
+  "subjectPattern": ".+", // default
+  "subjectPatternErrorMsg": "subject does not match subject pattern!", // default
+  "helpMessage": "", // default
+  "autoFix": false // default
+}
