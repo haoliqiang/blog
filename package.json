@@ -5,8 +5,12 @@
   "repository": "git@github.com:haoliqiang/blog.git",
   "author": "haoliqiang",
   "license": "MIT",
+  "scripts": {
+    "dev": "webpack --config ./demo/webpack/webpack.config.js"
+  },
   "devDependencies": {
     "tslint": "^5.10.0",
-    "typescript": "^2.9.2"
+    "typescript": "^2.9.2",
+    "webpack": "3"
   }
 }
