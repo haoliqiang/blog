@@ -6,7 +6,7 @@
   "author": "haoliqiang",
   "license": "MIT",
   "scripts": {
-    "dev": "webpack --config ./demo/webpack/webpack.config.js"
+    "build": "webpack --optimize-minimize --config ./demo/webpack/test/webpack.config.js"
   },
   "devDependencies": {
     "tslint": "^5.10.0",
